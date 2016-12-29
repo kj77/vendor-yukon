@@ -66,3 +66,45 @@ PRODUCT_PACKAGES += \
 	libta \
 	libtime_genoff \
 	libxml
+
+PRODUCT_PACKAGES += \
+	a330_pfp \
+	a330_pm4 \
+	cmnlib_b00 \
+	cmnlib_b01 \
+	cmnlib_b02 \
+	cmnlib_b03 \
+	cmnlib_mdt \
+	cpp_firmware_v1_2_0 \
+	tzhdcp_b00 \
+	tzhdcp_b01 \
+	tzhdcp_b02 \
+	tzhdcp_b03 \
+	tzhdcp_mdt \
+	tzlibasb_b00 \
+	tzlibasb_b01 \
+	tzlibasb_b02 \
+	tzlibasb_b03 \
+	tzlibasb_mdt \
+	tzsuntory_b00 \
+	tzsuntory_b01 \
+	tzsuntory_b02 \
+	tzsuntory_b03 \
+	tzsuntory_mdt \
+	venus_b00 \
+	venus_b01 \
+	venus_b02 \
+	venus_b03 \
+	venus_b04 \
+	venus_mbn \
+	venus_mdt \
+	WCNSS_cfg \
+	WCNSS_qcom_cfg \
+	WCNSS_qcom_wlan_nv \
+	keymaster_b00 \
+	keymaster_b01 \
+	keymaster_b02 \
+	keymaster_b03 \
+	keymaster_mdt \
+	libpn547_fw \
+	libbtnv

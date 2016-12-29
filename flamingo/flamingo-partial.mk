@@ -1,4 +1,4 @@
-# Copyright (C) 2015 SuperBenevolent
+# Copyright (C) 2012 Sony Mobile Communication
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,7 +12,34 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Not every blob is present on each device, it's simply easier to include
+PRODUCT_PACKAGES += \
+	adsp_b00 \
+	adsp_b01 \
+	adsp_b02 \
+	adsp_b03 \
+	adsp_b04 \
+	adsp_b05 \
+	adsp_b06 \
+	adsp_b07 \
+	adsp_b08 \
+	adsp_b09 \
+	adsp_b10 \
+	adsp_b11 \
+	adsp_b12 \
+	adsp_mdt \
+	wcnss_b00 \
+	wcnss_b01 \
+	wcnss_b02 \
+	wcnss_b04 \
+	wcnss_b06 \
+	wcnss_b07 \
+	wcnss_b08 \
+	wcnss_b09 \
+	wcnss_mdt \
+	btnvtool \
+	sensors.flamingo
+
+# Not every modem blob is present on each device, it's simply easier to include
 # them all here and let Android.mk sort it out per device.
 
 PRODUCT_PACKAGES += \
@@ -47,4 +74,3 @@ PRODUCT_PACKAGES += \
 	modem_b26 \
 	modem_b27 \
 	modem_mdt
-
