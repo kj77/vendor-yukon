@@ -54,11 +54,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     thermal-engine \
     libthermalclient \
-    libthermalioctl \
-
-# Time
-PRODUCT_PACKAGES += \
-    time_daemon \
-    libtime_genoff \
-    libTimeService \
-    TimeService
+    libthermalioctl

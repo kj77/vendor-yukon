@@ -212,6 +212,16 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libqti_performance
+LOCAL_SRC_FILES := lib/libqti_performance.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := mpdecision
 LOCAL_SRC_FILES := vendor/bin/mpdecision
 LOCAL_MODULE_TAGS := optional
@@ -268,60 +278,6 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libthermalioctl
 LOCAL_SRC_FILES := vendor/lib/libthermalioctl.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
-include $(BUILD_PREBUILT)
-
-# --------------------------------------------
-# Time
-# --------------------------------------------
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := TimeService
-LOCAL_SRC_FILES := app/TimeService.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_PATH := $(TARGET_OUT)/app
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libqti_performance
-LOCAL_SRC_FILES := lib/libqti_performance.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := time_daemon
-LOCAL_SRC_FILES := vendor/bin/time_daemon
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := 
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libtime_genoff
-LOCAL_SRC_FILES := vendor/lib/libtime_genoff.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libTimeService
-LOCAL_SRC_FILES := vendor/lib/libTimeService.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
