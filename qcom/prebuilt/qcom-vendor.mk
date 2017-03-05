@@ -1,1 +1,1 @@
-$(call inherit-product, vendor/qcom/prebuilt/qcom-partial-adreno-a3xx.mk)
+$(call inherit-product, vendor/sony/qcom/prebuilt/qcom-partial-adreno-a3xx.mk)
