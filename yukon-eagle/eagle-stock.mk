@@ -194,3 +194,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-eagle/proprietary/bin/memsicd:system/bin/memsicd \
     vendor/sony/yukon-eagle/proprietary/vendor/lib/hw/sensors_vendor.eagle.so:system/vendor/lib/hw/sensors_vendor.eagle.so \
     vendor/sony/yukon-eagle/proprietary/vendor/lib/hw/sensorsecond_vendor.eagle.so:system/vendor/lib/hw/sensorsecond_vendor.eagle.so
+
+# BT
+PRODUCT_COPY_FILES += \
+    vendor/sony/yukon-eagle/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init
