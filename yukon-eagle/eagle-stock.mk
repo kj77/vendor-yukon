@@ -198,3 +198,7 @@ PRODUCT_COPY_FILES += \
 # BT
 PRODUCT_COPY_FILES += \
     vendor/sony/yukon-eagle/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init
+
+# WIFI MAC
+PRODUCT_COPY_FILES += \
+    vendor/sony/yukon-eagle/proprietary/bin/wifimactool:system/bin/wifimactool
