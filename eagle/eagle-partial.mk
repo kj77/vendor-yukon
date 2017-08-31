@@ -14,6 +14,5 @@
 
 PRODUCT_PACKAGES += \
 	btnvtool \
-	libyasalgo 
-	#sensors.eagle
-
+	sensors.eagle \
+	libyasalgo
