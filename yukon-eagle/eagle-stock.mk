@@ -156,6 +156,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-eagle/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
     vendor/sony/yukon-eagle/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
     vendor/sony/yukon-eagle/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
+    vendor/sony/yukon-eagle/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
+    vendor/sony/yukon-eagle/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/sony/yukon-eagle/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/sony/yukon-eagle/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/sony/yukon-eagle/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -187,7 +189,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-eagle/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/sony/yukon-eagle/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/sony/yukon-eagle/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    vendor/sony/yukon-eagle/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
+    vendor/sony/yukon-eagle/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/sony/yukon-eagle/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so
 
 # Sensors
 PRODUCT_COPY_FILES += \
