@@ -65,6 +65,7 @@ PRODUCT_PACKAGES += \
 	libsystem_health_mon \
 	libta \
 	libtime_genoff \
+	libwvdrmengine \
 	libxml
 
 PRODUCT_PACKAGES += \
